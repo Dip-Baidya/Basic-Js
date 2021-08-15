@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        article{
+            border: 2px solid tomato;
+            border-radius: 20px;
+            margin: 5px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <section>
+        <h1>Hello DOM</h1>
+        <article>
+            <h3 >article-1</h3>
+            <p class="author">author</p>
+            <p class="description" id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium sequi non culpa dolorem, voluptas nesciunt maiores odio, et quo asperiores consectetur placeat adipisci ab quae voluptatem! Quam optio repudiandae labore.</p>
+        </article>
+
+        <article>
+            <h3>article-1</h3>
+            <p class="author">author</p>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium sequi non culpa dolorem, voluptas nesciunt maiores odio, et quo asperiores consectetur placeat adipisci ab quae voluptatem! Quam optio repudiandae labore.</p>
+        </article>
+
+        <article>
+            <h3>article-1</h3>
+            <p class="author">author</p>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium sequi non culpa dolorem, voluptas nesciunt maiores odio, et quo asperiores consectetur placeat adipisci ab quae voluptatem! Quam optio repudiandae labore.</p>
+        </article>
+    </section>
+
+    <script>
+        var authors = document.getElementsByClassName('author');
+        document.createElement
+        for(i = 0; i < authors.length; i++)
+        {
+            var element = authors[i];
+            element.style.backgroundColor = 'lightblue'; 
+            element.innerHTML = 'dip';
+        }
+    </script>
+    
+</body>
+</html>
